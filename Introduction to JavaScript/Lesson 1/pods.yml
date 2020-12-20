@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+	name: Experizerdemo
+	labels:
+	  app: Experizerdemo
+spec:
+	containers:
+	  -name:Experizerdemo
+	   image:Experizer/Experizerdemo:tagVersion
+	   ports:
+	     - containerPort:8080
